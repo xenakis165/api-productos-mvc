@@ -1,0 +1,31 @@
+{
+  "name": "api-productos-mvc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "node src/server.js",
+  "dev": "nodemon src/server.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xenakis165/api-productos-mvc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/xenakis165/api-productos-mvc/issues"
+  },
+  "homepage": "https://github.com/xenakis165/api-productos-mvc#readme",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "mysql2": "^3.24.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
