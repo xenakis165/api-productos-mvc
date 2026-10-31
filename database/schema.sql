@@ -7,9 +7,9 @@ CREATE TABLE IF NOT EXISTS productos (
  nombre VARCHAR(100) NOT NULL,
  precio DECIMAL(10,2) NOT NULL,
  stock INT NOT NULL DEFAULT 0,
- Usuario VARCHAR(50) NOT NULL,
+ usuario VARCHAR(50) NOT NULL,
  creado_en TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-INSERT INTO productos (nombre, precio, stock, Usuario) VALUES
+INSERT INTO productos (nombre, precio, stock, usuario) VALUES
  ('Mouse inalámbrico', 45.90, 20, ‘SENATI’),
  ('Teclado mecánico', 129.00, 10, ‘SENATI’);

@@ -1,6 +1,6 @@
 const Producto = require('../models/producto.model');
 // Valida los datos recibidos. Devuelve un mensaje de error o null si todo está bien.
-const validarProducto = ({ nombre, precio, stock }) => {
+const validarProducto = ({ nombre, precio, stock, usuario }) => {
  if (typeof nombre !== 'string' || nombre.trim() === '') {
  return 'El nombre es obligatorio';
  }
